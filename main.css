@@ -1,5 +1,4 @@
-
-*{
+* {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -12,7 +11,17 @@ a {
     border-radius: 5px;
 }
 
-.contact{
+.contact {
     display: flex;
     justify-content: center;
+}
+
+::-moz-selection {
+    color: white;
+    background: greenyellow;
+}
+
+::selection {
+    color: white;
+    background: greenyellow;
 }
